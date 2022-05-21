@@ -1,0 +1,25 @@
+server:
+  port: 8080 # Tomcat端口号
+  servlet:
+    context-path: / # 上下文根
+
+    encoding: # 设置字符编码
+      enabled: true
+      force: true
+      charset: utf-8
+
+spring:
+  thymeleaf:
+    cache: false # 关闭Thymeleaf缓存
+    prefix: / # 前缀
+    suffix: .html # 后缀
+
+  # 数据库源信息
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test_demo?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 123abc,./
+mybatis:
+  mapper-locations: classpath:/mybatis/mapper/*Mapper.xml # 设置MyBatis映射文件位置
+  type-aliases-package: com.qlx.po # 指定一个包名，MyBatis会在包名下搜索需要的JavaBean
