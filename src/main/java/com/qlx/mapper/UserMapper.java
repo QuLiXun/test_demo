@@ -1,6 +1,6 @@
 package com.qlx.mapper;
 
-import com.qlx.po.User;
+import com.qlx.pojo.User;
 
 import java.util.List;
 

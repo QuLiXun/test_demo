@@ -1,6 +1,6 @@
 package com.qlx.controller;
 
-import com.qlx.po.User;
+import com.qlx.pojo.User;
 import com.qlx.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

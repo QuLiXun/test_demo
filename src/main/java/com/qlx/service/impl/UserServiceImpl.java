@@ -1,7 +1,7 @@
 package com.qlx.service.impl;
 
 import com.qlx.mapper.UserMapper;
-import com.qlx.po.User;
+import com.qlx.pojo.User;
 import com.qlx.service.UserService;
 import org.springframework.stereotype.Service;
 
